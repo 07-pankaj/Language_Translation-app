@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D3CAC5C5"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/German"
+        android:layout_width="match_parent"
+        android:layout_height="126dp"
+        android:layout_marginBottom="10dp"
+        android:background="#b00020"
+        android:gravity="center_vertical"
+        android:paddingLeft="20dp"
+        android:text="@string/german"
+        android:textColor="@color/white"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/Franch"
+        android:layout_width="match_parent"
+        android:layout_height="126dp"
+        android:layout_marginBottom="10dp"
+        android:background="#b00020"
+        android:gravity="center_vertical"
+        android:paddingLeft="20dp"
+        android:text="@string/frach"
+        android:textColor="@color/white"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/Chinese"
+        android:layout_width="match_parent"
+        android:layout_height="126dp"
+        android:layout_marginBottom="10dp"
+        android:background="#b00020"
+        android:gravity="center_vertical"
+        android:paddingLeft="20dp"
+        android:text="@string/chinese"
+        android:textColor="@color/white"
+        android:textSize="36sp" />
+
+</LinearLayout>
